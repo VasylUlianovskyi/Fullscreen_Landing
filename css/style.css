@@ -3,42 +3,66 @@ body {
   font-size: 17px;
   color: #926239;
   line-height: 1.6;
+  background-color: #ffffff;
 }
 
 header {
 
   text-align: center;
-  padding: 400px;
+  margin: 420px 0px 420px 0px;
+  padding-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  /* text-overflow: clip; */
+
 }
 
 h1 {
   font-size: 50px;
-  line-height: 1.2;
+  line-height: 0.9;
   font: bold;
+  text-transform: capitalize;
+  margin-bottom: 0;
 
+}
+
+.sub-title {
+  font-size: 20px;
 }
 
 p {
   font-size: 17px;
+
 }
 
 a {
   font-size: 18px;
   text-decoration: none;
+  text-transform: capitalize;
   color: inherit;
   border: #926239 1px solid;
   padding: 10px 20px;
   border-radius: 10px;
+  margin-top: 20px;
+}
+
+.linkbut:hover {
+  background-color: #926239;
+  color: white;
 }
 
 .background {
   background-color: #926239;
   color: white;
-  padding: 10px;
+  padding: 20px;
 }
 
 .descript {
   color: #926239;
-  padding: 10px;
-  background-color: #ffffff;
+  padding: 20px;
+  background-color: #f0edea;
+}
+
+.grid {
+  display: flex;
 }
